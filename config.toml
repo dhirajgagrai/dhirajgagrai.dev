@@ -1,0 +1,26 @@
+base_url = "https://dhirajgagrai.dev"
+title = "Dhiraj Gagrai"
+
+compile_sass = false
+
+build_search_index = true
+
+theme = "apollo"
+
+[markdown]
+highlight_code = true
+
+[extra]
+toc = true
+use_cdn = false
+favicon = "/icon/favicon.png"
+theme = "auto"      
+
+menu = [
+    { name = "posts", url = "/posts", weight = 1 },
+    { name = "doing", url = "/doing", weight = 2 },
+]
+
+stylesheets = [
+    "css/base.css"
+]

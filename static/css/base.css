@@ -1,0 +1,10 @@
+@import "posts.css";
+
+footer {
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    border-top: 1px solid white;
+    font-size: 0.8em;
+}
