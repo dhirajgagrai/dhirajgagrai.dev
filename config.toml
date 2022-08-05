@@ -17,8 +17,9 @@ favicon = "/icon/favicon.png"
 theme = "auto"      
 
 menu = [
-    { name = "posts", url = "/posts", weight = 1 },
-    { name = "doing", url = "/doing", weight = 2 },
+    { name = "home", url = "/", weight = 1 },
+    { name = "posts", url = "/posts", weight = 2 },
+    { name = "now", url = "/now", weight = 2 },
 ]
 
 stylesheets = [
