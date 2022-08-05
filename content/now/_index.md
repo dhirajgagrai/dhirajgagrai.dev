@@ -1,7 +1,7 @@
 +++
 path = "now"
-title = "What I'm doing now?"
+title = "What I'm doing now"
 template = "now.html"
 transparent = true
-sort_by = "date"
+sort_by = "weight"
 +++

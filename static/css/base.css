@@ -1,8 +1,15 @@
 @import "posts.css";
+@import "nav.css";
 
 :root {
     --primary-color: rgb(45, 175, 116);
     font-size: 1.025em;
+}
+
+a {
+    border-bottom: 3px solid var(--primary-color);
+    color: var(--primary-color);
+    text-decoration: none;
 }
 
 footer {
