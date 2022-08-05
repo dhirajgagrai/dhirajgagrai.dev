@@ -9,6 +9,6 @@ weight = 1
         Writing a service that observes changes in a web page
     </li>
     <li>Setting up my <a href="/posts">/posts</a> page</li>
-    <li>Tinkering with <a href="/https://github.com/nushell/nushell">nushell</a></li>
+    <li>Tinkering with <a href="https://github.com/nushell/nushell" target="_blank">nushell</a></li>
     <li>Training to squat 100kg</li>
 </ul>
