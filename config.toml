@@ -19,7 +19,8 @@ theme = "auto"
 menu = [
     { name = "home", url = "/", weight = 1 },
     { name = "posts", url = "/posts", weight = 2 },
-    { name = "now?", url = "/now", weight = 2 },
+    { name = "notes", url = "/notes", weight = 3 },
+    { name = "now?", url = "/now", weight = 4 },
 ]
 
 stylesheets = [

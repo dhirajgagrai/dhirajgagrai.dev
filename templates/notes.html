@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block main_content %}
+    <article>
+        {{ post_macros::page_header(title=section.title) }}
+        
+        {% for page in section.pages %}
+            <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
+        {% endfor %}
+    </article>
+{% endblock main_content %}
