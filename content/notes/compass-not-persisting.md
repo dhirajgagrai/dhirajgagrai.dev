@@ -8,4 +8,4 @@ date = 2022-08-10
 </p>
 
 Installing `gnome-keyring` solved issues for most user.<br>
-In KDE version of Manjaro, `keepassxc` can be used.
+In the KDE version of Manjaro, `keepassxc` can be used as an alternative.
