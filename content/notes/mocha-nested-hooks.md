@@ -30,4 +30,6 @@ Output:<br>
 ```
 ___
 
-Reference: [GitHub Gist by harto](https://gist.github.com/harto/c97d2fc9d0bfaf20706eb2acbf48c908)
+Referenced
+from [this GitHub Gist](https://gist.github.com/harto/c97d2fc9d0bfaf20706eb2acbf48c908)
+by [harto](https://gist.github.com/harto)
