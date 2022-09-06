@@ -6,12 +6,6 @@
     font-size: 1.025em;
 }
 
-a {
-    border-bottom: 3px solid var(--primary-color);
-    color: var(--primary-color);
-    text-decoration: none;
-}
-
 footer {
     bottom: 10px;
     display: flex;

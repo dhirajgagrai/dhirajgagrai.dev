@@ -13,8 +13,8 @@ highlight_code = true
 [extra]
 toc = true
 use_cdn = false
-favicon = "/icon/favicon.png"
-theme = "auto"      
+favicon = "/icon/Banana_Enthusiast.png"
+theme = "toggle"      
 
 menu = [
     { name = "home", url = "/", weight = 1 },
