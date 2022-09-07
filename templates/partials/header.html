@@ -47,7 +47,7 @@
 
     {# Theme #}
     {% if config.extra.theme == "toggle" %}
-        <script src="js/feather.min.js"></script>
+        <script src={{ get_url(path="js/feather.min.js") }}></script>
     {% endif %}
     <link
         rel="stylesheet"
