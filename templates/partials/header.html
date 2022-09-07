@@ -49,6 +49,14 @@
     {% if config.extra.theme == "toggle" %}
         <script src="js/feather.min.js"></script>
     {% endif %}
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href={{ get_url(path="theme/light.css") }}
+        {% if config.extra.theme == "auto" %}
+            media="(prefers-color-scheme: dark)"
+        {% endif %}
+    />
     {% if config.extra.theme == "auto" or config.extra.theme == "dark" or config.extra.theme == "toggle" %}
         <link
             rel="stylesheet"
@@ -62,7 +70,6 @@
     {% endif %}
 
     <link rel="stylesheet" type="text/css" media="screen" href={{ get_url(path="main.css") }} />
-
 
     {% if config.extra.stylesheets %}
         {% for stylesheet in config.extra.stylesheets %}
