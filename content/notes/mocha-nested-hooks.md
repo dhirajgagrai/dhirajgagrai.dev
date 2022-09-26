@@ -10,13 +10,14 @@ describe('mocha before hooks', function () {
 	describe('nesting', function () {
 		before(() => console.log('*** nested before()'));
 		beforeEach(() => console.log('*** nested beforeEach()'));
-		it('is a nested spec', () => true);
+  		it('is a nested spec', () => true);
 	});
 });
 ```
 
 Output:<br>
-```
+
+```text
 //   mocha before hooks
 // *** top-level before()
 //     nesting
@@ -28,6 +29,7 @@ Output:<br>
 //
 //   1 passing (8ms)
 ```
+
 ___
 
 Referenced

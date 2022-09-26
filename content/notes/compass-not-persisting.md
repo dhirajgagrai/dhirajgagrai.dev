@@ -4,7 +4,11 @@ date = 2022-08-10
 +++
 
 <p>
-    AUR package <a href="https://aur.archlinux.org/packages/mongodb-compass" target="_blank">mongodb-compass</a> doesn't persist connection settings and favorites on subsequent launches of the app.
+    AUR package
+    <a href="https://aur.archlinux.org/packages/mongodb-compass" target="_blank">
+        mongodb-compass
+    </a>
+    doesn't persist connection settings and favorites on subsequent launches.
 </p>
 
 Installing `gnome-keyring` solved issues for most user.<br>

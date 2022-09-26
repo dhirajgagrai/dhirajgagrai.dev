@@ -5,8 +5,9 @@ weight = 1
 
 <ul>
     <li>
-        <a href="https://github.com/dhirajgagrai/honeyfilter" target="_blank">honeyfilter</a> - 
-        writing a service that tracks changes in a web pages
+        Writing a service
+        <a href="https://github.com/dhirajgagrai/honeyfeed" target="_blank">honeyfeed</a>
+         that tracks changes in a web pages
     </li>
     <li>Setting up my <a href="/posts">/posts</a> page</li>
     <li>Training to squat 100kg</li>
