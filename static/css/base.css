@@ -2,15 +2,15 @@
 @import "nav.css";
 
 :root {
-    --primary-color: rgb(45, 175, 116);
-    font-size: 1.025em;
+  --primary-color: rgb(45, 175, 116);
+  font-size: 1.025em;
 }
 
 footer {
-    bottom: 10px;
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    border-top: 1px solid var(--text-0);
-    font-size: 0.75em;
+  bottom: 10px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  border-top: 1px solid var(--text-0);
+  font-size: 0.75em;
 }
