@@ -1,8 +1,7 @@
 base_url = "https://dhirajgagrai.dev"
 title = "Dhiraj Gagrai"
 
-compile_sass = false
-
+compile_sass = true
 build_search_index = true
 
 theme = "apollo"
@@ -17,10 +16,9 @@ favicon = "/icon/Banana_Enthusiast.png"
 theme = "toggle"      
 
 menu = [
-    { name = "home", url = "/", weight = 1 },
-    { name = "posts", url = "/posts", weight = 2 },
-    { name = "notes", url = "/notes", weight = 3 },
-    { name = "now?", url = "/now", weight = 4 },
+    { name = "posts", url = "/posts", weight = 1 },
+    { name = "notes", url = "/notes", weight = 2 },
+    { name = "now?", url = "/now", weight = 3 },
 ]
 
 stylesheets = [
