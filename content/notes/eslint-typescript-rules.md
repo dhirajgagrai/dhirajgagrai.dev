@@ -3,7 +3,7 @@ title = "ESLint TypeScript rules"
 date = 2022-10-06
 +++
 
-Filename: .vscode/settings.json
+Filename: .eslintrc.json
 
 ```json
 "rules": {
@@ -21,7 +21,10 @@ Filename: .vscode/settings.json
         "error",
         "always"
     ],
-    "function-paren-newline": ["error", "multiline"],
+    "function-paren-newline": [
+        "error",
+        "multiline"
+    ],
     "indent": [
         "error",
         2
@@ -29,20 +32,31 @@ Filename: .vscode/settings.json
     "no-console": 1,
     "no-multiple-empty-lines": [
         "error",
-        { 
-            "max": 1 ,
+        {
+            "max": 1,
             "maxEOF": 0
         }
     ],
-    "no-trailing-spaces": ["error", { "skipBlankLines": true }],
+    "no-trailing-spaces": [
+        "error",
+        {
+            "skipBlankLines": true
+        }
+    ],
     "object-curly-newline": [
-    "error",
+        "error",
         {
             "multiline": true,
             "consistent": true
         }
     ],
-    "object-curly-spacing": ["error", "always"],
-    "space-in-parens": ["error", "never"]
+    "object-curly-spacing": [
+        "error",
+        "always"
+    ],
+    "space-in-parens": [
+        "error",
+        "never"
+    ]
 }
 ```
