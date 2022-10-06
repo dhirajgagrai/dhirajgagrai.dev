@@ -2,7 +2,7 @@
 
 The homepage of Dhiraj Gagrai.
 
-## Technology
+## Tech Stack
 
 SSG: [Zola](https://www.getzola.org/)  
 Theme: [apollo](https://github.com/not-matthias/apollo)  

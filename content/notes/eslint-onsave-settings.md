@@ -1,5 +1,5 @@
 +++
-title = "ESLint OnSave rule"
+title = "ESLint OnSave settings"
 date = 2022-08-08
 +++
 

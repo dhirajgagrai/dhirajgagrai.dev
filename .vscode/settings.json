@@ -2,4 +2,5 @@
     "editor.codeActionsOnSave": {
         "source.fixAll.markdownlint": true,
     },
+    "editor.tabSize": 4,
 }
