@@ -2,8 +2,8 @@
 
 The homepage of Dhiraj Gagrai.
 
-## Tech Stack
+## Powered With
 
 SSG: [Zola](https://www.getzola.org/)  
 Theme: [apollo](https://github.com/not-matthias/apollo)  
-Deploy: [Vercel](https://vercel.com/)
+Deployment: [Vercel](https://vercel.com/)

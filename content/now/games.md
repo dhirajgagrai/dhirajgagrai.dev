@@ -4,11 +4,22 @@ weight = 3
 +++
 
 <ul>
-    <li>Hades</li>
     <li>
-        <a href="https://www.orithegame.com/blind-forest/" target="_blank">
-            Ori and the Blind Forest
+        <a href="https://www.shredders-revenge.com/" target="_blank">
+            TMNT Shredder's Revenge
         </a>
     </li>
-    <li><a href="https://www.dota2.com/home" target="_blank">Dota 2</a></li>
+    <li>
+        <a href="https://katanazero.com/" target="_blank">
+            Katana ZERO
+        </a>
+    </li>
+    <li>
+        <a
+            href="https://store.epicgames.com/en-US/p/ken-follets-the-pillars-of-the-earth/"
+            target="_blank"
+        >
+            Ken Follett's The Pillars of the Earth
+        </a>
+    </li>
 </ul>
