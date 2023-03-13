@@ -29,6 +29,9 @@ const projects = (await getCollection("projects")).sort(
                 list-style-type: none;
                 padding: unset;
             }
+            .projects li {
+                margin-bottom: 0.25rem;
+            }
             .posts li {
                 display: flex;
             }
@@ -74,7 +77,7 @@ const projects = (await getCollection("projects")).sort(
             </p>
             <div class="content">
                 <h2>Projects</h2>
-                <ul>
+                <ul class="projects">
                     {
                         projects.map((project) => (
                             <li>

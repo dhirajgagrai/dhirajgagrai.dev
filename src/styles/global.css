@@ -37,10 +37,13 @@ b {
 }
 a {
     color: #222;
-    text-decoration-color: rgb(45, 175, 116);
+}
+a:hover {
+    text-decoration-color: rgb(86, 209, 154);
+    text-decoration-thickness: 2px;
 }
 nav a {
-    color: #008020;
+    color: rgb(6, 131, 75);
     margin-right: 10px;
 }
 textarea {

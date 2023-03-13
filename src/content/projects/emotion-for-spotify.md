@@ -1,5 +1,5 @@
 ---
 title: "Emotion for Spotify"
-description: "An open source platform to share music moods"
+description: "A platform to share moods through music."
 pubDate: "Mar 13 2023"
 ---
