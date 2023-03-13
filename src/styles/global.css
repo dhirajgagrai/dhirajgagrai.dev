@@ -3,17 +3,27 @@
   https://github.com/HermanMartinus/bearblog/blob/297026a877bc2ab2b3bdfbd6b9f7961c350917dd/templates/styles/blog/default.css
   License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
  */
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
-	font-family: Verdana, sans-serif;
-	margin: auto;
-	padding: 20px;
-	max-width: 65ch;
-	text-align: left;
-	background-color: #fff;
-	word-wrap: break-word;
-	overflow-wrap: break-word;
-	line-height: 1.5;
-	color: #444;
+    display: flex;
+    flex-direction: column;
+    font-family: Inconsolata, monospace;
+    margin: auto;
+    padding: 0 20px;
+    max-width: 69ch;
+    min-height: 100vh;
+    text-align: left;
+    background-color: #fff;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: #444;
+}
+main {
+    flex: 1;
 }
 h1,
 h2,
@@ -23,45 +33,50 @@ h5,
 h6,
 strong,
 b {
-	color: #222;
+    color: #222;
 }
 a {
-	color: #3273dc;
+    color: #222;
+    text-decoration-color: rgb(45, 175, 116);
 }
 nav a {
-	margin-right: 10px;
+    color: #008020;
+    margin-right: 10px;
 }
 textarea {
-	width: 100%;
-	font-size: 16px;
+    width: 100%;
+    font-size: 16px;
 }
 input {
-	font-size: 16px;
+    font-size: 16px;
 }
 content {
-	line-height: 1.6;
+    line-height: 1.6;
 }
 table {
-	width: 100%;
+    width: 100%;
 }
 img {
-	max-width: 100%;
-	height: auto;
+    max-width: 100%;
+    height: auto;
 }
 code {
-	padding: 2px 5px;
-	background-color: #f2f2f2;
+    background-color: #f2f2f2;
 }
 pre {
-	padding: 1rem;
+    margin: 1rem 0;
+    padding: 1rem;
 }
 pre > code {
-	all: unset;
+    all: unset;
 }
 blockquote {
-	border: 1px solid #999;
-	color: #222;
-	padding: 2px 0px 2px 20px;
-	margin: 0px;
-	font-style: italic;
+    border: 1px solid #999;
+    color: #222;
+    padding: 2px 0px 2px 20px;
+    margin: 0px;
+    font-style: italic;
+}
+p {
+    text-align: justify;
 }
