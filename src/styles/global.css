@@ -10,7 +10,7 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: Inconsolata;
+    font-family: 'Inconsolata';
     margin: auto;
     padding: 0 20px;
     max-width: 69ch;
@@ -67,6 +67,8 @@ code {
     background-color: #f2f2f2;
 }
 pre {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.8rem;
     margin: 1rem 0;
     padding: 1rem;
 }

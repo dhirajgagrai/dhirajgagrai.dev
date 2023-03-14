@@ -2,6 +2,7 @@
 // Import the global.css file here so that it is included on
 // all pages through the use of the <BaseHead /> component.
 import "../styles/global.css";
+import "../styles/fonts.css";
 
 export interface Props {
     title: string;
@@ -21,13 +22,25 @@ const { title, description, image = "/placeholder-social.jpg" } = Astro.props;
 <meta name="generator" content={Astro.generator} />
 
 <!-- Google Fonts -->
-<link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link
-    href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;600;800&family=JetBrains+Mono&display=swap"
-    rel="stylesheet"
+    rel="preload"
+    href="https://fonts.gstatic.com/s/inconsolata/v31/QlddNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLyxq15IDhunJ_o.woff2"
+    as="font"
+    crossorigin
 />
-
+<link
+    rel="preload"
+    href="https://fonts.gstatic.com/s/inconsolata/v31/QlddNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLyx615IDhunJ_o.woff2"
+    as="font"
+    crossorigin
+/>
+<link
+    rel="preload"
+    href="https://fonts.gstatic.com/s/inconsolata/v31/QlddNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLyya15IDhunA.woff2"
+    as="font"
+    crossorigin
+/>
 <!-- Canonical URL -->
 <link rel="canonical" href={canonicalURL} />
 
