@@ -1,6 +1,6 @@
 ---
 title: "Guided by The Lighthouse: One-Tenth Faster"
-description: "Test Blog"
+description: "Google's Lighthouse uses six main metrics to audit the performance of a web page: FCP (First Contentful Paint), SI (Speed Index), LCP (Largest Contentful Paint), TTI (Time to Interactive), TBT (Total Blocking Time) and CLS (Cumulative Layout Shift)."
 pubDate: "Mar 31 2023"
 heroImage: "/lighthouse.jpg"
 ---
