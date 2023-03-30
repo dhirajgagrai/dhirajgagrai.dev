@@ -11,8 +11,9 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Inconsolata';
+    font-size: 17px;
     margin: auto;
-    padding: 0 20px;
+    padding: 0 30px;
     max-width: 69ch;
     min-height: 100vh;
     text-align: left;
