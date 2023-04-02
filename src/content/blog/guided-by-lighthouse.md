@@ -2,7 +2,7 @@
 title: "Guided by The Lighthouse: One-Tenth Faster"
 description: "Google's Lighthouse uses six main metrics to audit the performance of a web page: FCP (First Contentful Paint), SI (Speed Index), LCP (Largest Contentful Paint), TTI (Time to Interactive), TBT (Total Blocking Time) and CLS (Cumulative Layout Shift)."
 pubDate: "Mar 31 2023"
-updatedDate: "Mar 31 2023"
+updatedDate: "Apr 02 2023"
 heroImage: "/lighthouse.jpg"
 ---
 
@@ -37,6 +37,6 @@ Finally, I managed to hack through by preloading the resources used by client-si
 
 ![Hundred Overall](/hundred-overall.png)
 
-My interpretation for the weightage for SI and LCP:
+These observations help us to form a general understanding of how websites are supposed to behave. My interpretation of the weight allocation for SI and LCP is as follows:
 1. If the server response is longer, the page should be ready and minimal contentful action should be done when served. Hence, the heavier weightage for good LCP time.
 2. If any contentful action happens client side, the audit expects the initial server response to be significantly faster.
