@@ -4,6 +4,19 @@ weight: 4
 ---
 
 <ul>
+    <li>
+        Celeste -
+        <a 
+            href="https://celestegame.fandom.com/wiki/Chapter_8:_Core"
+            target="_blank"
+        >Chapter 8: Core</a> (Apr 2023)
+    </li>
+    <li>
+        <a 
+            href="https://www.shredders-revenge.com/"
+            target="_blank"
+        >TMNT Shredder's Revenge</a> (Apr 2023)
+    </li>
     <li>Squat 100kg (Jan 2023)</li>
     <li>
         <a

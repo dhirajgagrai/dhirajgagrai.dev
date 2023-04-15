@@ -5,9 +5,11 @@ weight: 3
 
 <ul>
     <li>
-        <a href="https://www.shredders-revenge.com/" target="_blank">
-            TMNT Shredder's Revenge
-        </a>
+        Celeste DLC -
+        <a 
+            href="https://celestegame.fandom.com/wiki/Chapter_9:_Farewell"
+            target="_blank"
+        >Chapter 9: Core</a>
     </li>
     <li>
         <a
