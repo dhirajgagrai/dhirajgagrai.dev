@@ -54,6 +54,6 @@ If the main game becomes easy, players can unlock cassette levels if they really
 
 ![Corner Correction](/celeste-soundtrack.png)
 
-If not for the Katana Zero, this game would have my all-time favourite OST. Sound design and music are what sets the tempo of this game. Sometimes it is serene and slow so that you can appreciate the artwork of the game. Other times it is exciting and makes you feel invincible even if you die 100 times in a level.
+If not for the Katana Zero, this game would have been my all-time favourite OST. Sound design and music are what sets the tempo of this game. Sometimes it is serene and slow so that you can appreciate the artwork of the game. Other times it is exciting and makes you feel invincible even if you die 100 times in a level.
 
 It is so fun cruising through the map while the music is hyping me up. I also tried to put on my music on Spotify while playing the game. The soundtrack works so great with the game that my playlist sounded utterly bland in comparison.
