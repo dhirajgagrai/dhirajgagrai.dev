@@ -14,7 +14,7 @@ Celeste is probably the best 2D platformer game I have ever played because it is
     <a href="https://radicaldreamland.bandcamp.com/album/celeste-madelines-grab-bag">Celeste - Madeline&#39;s Grab Bag by Lena Raine</a>
 </iframe>
 
-I beat the main game in January, reaching The Summit with zero crystal hearts and zero cassettes discovered. Chapter 8: Core I completed last weekend needs four crystals to be unlocked. So, I revisited Chapters 1 and 2 to get two crystals and two cassettes. Cassettes unlock the <a href="https://www.urbandictionary.com/define.php?term=B-Side" target="_blank">B-side</a> level, which rewards you with a crystal heart upon completing them. 
+I beat the main game in January, reaching The Summit with zero crystal hearts and zero cassettes discovered. I completed Chapter 8: Core last weekend which needs four crystals to be unlocked. So, I revisited Chapters 1 and 2 to get two crystals and two cassettes. Cassettes unlock the <a href="https://www.urbandictionary.com/define.php?term=B-Side" target="_blank">B-side</a> level, which rewards you with a crystal heart upon completing them. 
 
 The platforming genre is arguably the hardest for indie developers to break through. There are currently more audiences for narrative-driven and action genres. Games that have stood the test of time have dominated this scene, e.g., Donkey Kong, Limbo, Rayman Legends, Castlevania, etc. These titles have set the standards for the games in terms of quality and replayability. Celeste not only cemented its position among these triple-A mammoths but has also raised the bar for the fans of this genre.
 
