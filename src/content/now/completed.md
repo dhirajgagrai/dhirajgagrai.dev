@@ -15,7 +15,7 @@ weight: 4
         <a 
             href="https://www.shredders-revenge.com/"
             target="_blank"
-        >TMNT Shredder's Revenge</a> (Apr 2023)
+        >TMNT: Shredder's Revenge</a> (Apr 2023)
     </li>
     <li>Squat 100kg (Jan 2023)</li>
     <li>
