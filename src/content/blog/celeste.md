@@ -14,7 +14,7 @@ Celeste is probably the best 2D platformer game I have ever played because it is
     <a href="https://radicaldreamland.bandcamp.com/album/celeste-madelines-grab-bag">Celeste - Madeline&#39;s Grab Bag by Lena Raine</a>
 </iframe>
 
-I beat the main game in January, reaching The Summit with zero crystal hearts and zero cassettes discovered. The unlockable Chapter 8: Core I completed last weekend needs four crystals to have it unlocked. So, I revisited Chapters 1 and 2 to get two crystals and two cassettes. Cassettes unlock the <a href="https://www.urbandictionary.com/define.php?term=B-Side" target="_blank">B-side</a> level, which rewards you with a crystal heart upon completing them. 
+I beat the main game in January, reaching The Summit with zero crystal hearts and zero cassettes discovered. Chapter 8: Core I completed last weekend needs four crystals to be unlocked. So, I revisited Chapters 1 and 2 to get two crystals and two cassettes. Cassettes unlock the <a href="https://www.urbandictionary.com/define.php?term=B-Side" target="_blank">B-side</a> level, which rewards you with a crystal heart upon completing them. 
 
 The platforming genre is arguably the hardest for indie developers to break through. There are currently more audiences for narrative-driven and action genres. Games that have stood the test of time have dominated this scene, e.g., Donkey Kong, Limbo, Rayman Legends, Castlevania, etc. These titles have set the standards for the games in terms of quality and replayability. Celeste not only cemented its position among these triple-A mammoths but has also raised the bar for the fans of this genre.
 
@@ -44,7 +44,7 @@ For example, when you hit the corner of an object when dashing or jumping toward
 
 ## Level Design
 
-Developers have hit that point in the design where it doesn't feel like the game is unfair. When you die, you know it's because you lack skills. When you beat the level, you know it's not luck. The best part of the game was when I was scaling the mountain in the last chapter. It was the culmination of everything I learned and that showed here. That level was also easiest for me, not because it was easy but because of what I went through so far.
+Developers have hit that point in the design where it doesn't feel like the game is unfair. When you die, you know it's because you lack skills. When you beat the level, you know it's not luck. The best part of the game was when I was scaling the mountain in the last chapter. It was the culmination of everything I learned that showed here. That level was also easiest for me, not because it was easy but because of what I did go through so far.
 
 If the main game becomes easy, players can unlock cassette levels if they really want to push their craft to the edge. And what's interesting about the cassette levels is that they are fu*king evil. You are not allowed to waste a single resource on these levels.
 
@@ -56,4 +56,4 @@ If the main game becomes easy, players can unlock cassette levels if they really
 
 If not for the Katana Zero, this game would have my all-time favourite OST. Sound design and music are what sets the tempo of this game. Sometimes it is serene and slow so that you can appreciate the artwork of the game. Other times it is exciting and makes you feel invincible even if you die 100 times in a level.
 
-It is so fun when I just cruise through the map while the music is hyping me up. I also tried to put on my music on Spotify while playing the game. The original soundtrack works so great with the game, my playlist sounded utterly bland in comparison.
+It is so fun cruising through the map while the music is hyping me up. I also tried to put on my music on Spotify while playing the game. The soundtrack works so great with the game that my playlist sounded utterly bland in comparison.
