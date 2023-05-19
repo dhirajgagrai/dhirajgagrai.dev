@@ -2,6 +2,7 @@
 title: "Celeste"
 description: "Celeste is a fresh modern 2D platformer. This game has one of the best sound and level designs. Celeste is probably the best 2D platformer game I have ever played because it is the only platformer I remember completing."
 pubDate: "Apr 18 2023"
+updatedDate: "May 19 2023"
 heroImage: "/celeste-core.png"
 ---
 Celeste is probably the best 2D platformer game I have ever played because it is the only platformer I remember completing. I have beaten other platformers where games feel like a chore to get to the end credits. In Celeste, there is an overwhelming sense of accomplishment at every level. The artwork describing the chapters and a jingle that plays on finishing them add to this feeling.
@@ -46,7 +47,7 @@ For example, when you hit the corner of an object when dashing or jumping toward
 
 Developers have hit that point in the design where it doesn't feel like the game is unfair. When you die, you know it's because you lack skills. When you beat the level, you know it's not luck. The best part of the game was when I was scaling the mountain in the last chapter. It was the culmination of everything I learned that showed here. That level was also easiest for me, not because it was easy but because of what I did go through so far.
 
-If the main game becomes easy, players can unlock cassette levels if they really want to push their craft to the edge. And what's interesting about the cassette levels is that they are fu*king evil. You are not allowed to waste a single resource on these levels.
+If the main game becomes easy, players can unlock cassette levels if they really want to push their craft to the edge. And what's interesting about the cassette levels is that they are fu*king evil. You are not allowed to waste a single resource on these levels. These levels actually make you appreciate the controls of the game.
 
 > "And what's interesting about the cassette levels is that they are fu*king evil" - videogamedunkey, 2018
 
