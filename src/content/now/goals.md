@@ -11,13 +11,7 @@ weight: 1
         >Incremental Caching</a>
         for Astro
     </li>
-    <li>Writing an API for a platform to share your musical mood</li>
-    <li>
-        Learning
-        <a href="https://go.dev/" target="_blank">Go</a>
-        and setting up tooling for
-        <a href="https://neovim.io/" target="_blank">Neovim</a>
-    </li>
+    <li>Emotion for Spotify</li>
     <li>
         <a href="https://www.youtube.com/watch?v=H854e_GFV_U" target="_blank">Dunk</a>
     </li>
