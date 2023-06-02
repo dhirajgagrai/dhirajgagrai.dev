@@ -11,6 +11,6 @@ weight: 3
             target="_blank"
         >Chapter 9: Farewell</a>
     </li>
-    <li>The Legend of Zelda: A Link to the Past</li>
+    <li>The Legend of Zelda: A Link to the Past and Four Swords</li>
     
 </ul>
