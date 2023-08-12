@@ -11,6 +11,10 @@ weight: 3
             target="_blank"
         >Chapter 9: Farewell</a>
     </li>
-    <li>The Legend of Zelda: A Link to the Past and Four Swords</li>
-    
+    <li>
+        <a 
+            href="https://www.chess.com/member/pogmaoth"
+            target="_blank"
+        >Chess</a>
+    </li>
 </ul>

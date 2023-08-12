@@ -12,7 +12,5 @@ weight: 1
         for Astro
     </li>
     <li>Emotion for Spotify</li>
-    <li>
-        <a href="https://www.youtube.com/watch?v=H854e_GFV_U" target="_blank">Dunk</a>
-    </li>
+    <li>Deadlift 200kg</li>
 </ul>
