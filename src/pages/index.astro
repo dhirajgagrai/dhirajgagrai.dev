@@ -36,6 +36,9 @@ const projects = (await getCollection("projects")).sort(
             .projects p {
                 display: inline;
             }
+            .project-title {
+                font-weight: 800;
+            }
             .posts li {
                 display: flex;
             }
@@ -83,11 +86,15 @@ const projects = (await getCollection("projects")).sort(
                         projects.map((project) => (
                             <li>
                                 {project.data.link ? (
-                                    <a href={project.data.link} target="_blank">
+                                    <a
+                                        href={project.data.link}
+                                        target="_blank"
+                                        class="project-title"
+                                    >
                                         {project.data.title}<!--
                                     --></a>
                                 ) : (
-                                    <p>{project.data.title}</p>
+                                    <p class="project-title">{project.data.title}</p>
                                 )}<!--
                                 -->: <p>{project.data.description}</p>
                             </li>
