@@ -1,5 +1,5 @@
 ---
-title: "My theme configuration for Oh My Zsh"
+title: "Oh My Zsh - theme configuration"
 description: "This is the modification for alanpeabdoy theme that I use for Oh My Zsh"
 pubDate: "Apr 02 2023"
 ---

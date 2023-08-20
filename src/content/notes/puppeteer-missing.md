@@ -1,5 +1,5 @@
 ---
-title: "Puppeteer Linux dependencies"
+title: "Puppeteer - Linux dependencies"
 description: "List of missing dependencies required to run Puppeteer on Linux"
 pubDate: "Aug 09 2022"
 ---
