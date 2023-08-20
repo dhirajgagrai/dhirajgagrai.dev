@@ -86,3 +86,21 @@ blockquote {
 p {
     text-align: justify;
 }
+
+.slug-ul {
+    list-style-type: none;
+    padding: unset;
+}
+.slug-ul li {
+    display: flex;
+}
+.slug-ul li time {
+    flex: 0 0 130px;
+    font-style: italic;
+    color: #595959;
+}
+@media handheld, only screen and (max-width: 479px), only screen and (max-device-width: 479px) {
+    .slug-ul li {
+        margin-bottom: 10px;
+    }
+}

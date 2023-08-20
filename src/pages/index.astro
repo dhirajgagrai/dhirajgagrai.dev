@@ -23,6 +23,7 @@ const projects = (await getCollection("projects")).sort(
             h2 {
                 margin-bottom: 0.5rem;
                 font-weight: 600;
+                font-size: 1.3rem;
                 color: #ee0000;
             }
             ul {
@@ -37,48 +38,63 @@ const projects = (await getCollection("projects")).sort(
                 display: inline;
             }
             .project-title {
-                font-weight: 800;
-            }
-            .posts li {
-                display: flex;
-            }
-            .posts li :global(time) {
-                flex: 0 0 130px;
-                font-style: italic;
-                color: #595959;
+                font-weight: bolder;
             }
             .content {
                 margin-top: 2rem;
+            }
+            .about {
+                display: flex;
+                gap: 10px;
+            }
+            .about img {
+                width: 200px;
+                height: 200px;
+            }
+            @media handheld, only screen and (max-width: 479px), only screen and (max-device-width: 479px) {
+                .about {
+                    display: block;
+                }
+                .about img {
+                    margin-top: 10px;
+                    width: 100%;
+                    height: 250px;
+                    object-fit: cover;
+                }
             }
         </style>
     </head>
     <body>
         <Header />
         <main>
-            <p>
-                Hi! 👋 I'm Dhiraj Gagrai. I am a software engineer, currently
-                self-teaching myself how different things work. I design and
-                build E-commerce applications at my present full-time job.
-            </p>
-            <br />
-            <p>
-                Find me on
-                <a href="https://github.com/dhirajgagrai" target="_blank"
-                    >GitHub</a
-                >,
-                <a href="https://twitter.com/DhirajGagrai" target="_blank"
-                    >Twitter</a
-                >,
-                <a
-                    href="https://www.linkedin.com/in/dhirajgagrai"
-                    target="_blank">LinkedIn</a
-                >,
-                <a
-                    href="https://discordapp.com/users/458476095273041941"
-                    target="_blank">Discord</a
-                > or
-                <a href="mailto:dhirajgagrai@gmail.com">Email</a>.
-            </p>
+            <div class="about">
+                <div class="text">
+                    <p>
+                        I'm Dhiraj, a software engineer, currently self-teaching myself how different things work. 
+                        My previous experiences include building and designing E-commerce applications.
+                    </p>
+                    <br />
+                    <p>
+                        Find me on
+                        <a href="https://github.com/dhirajgagrai" target="_blank"
+                            >GitHub</a
+                        >,
+                        <a href="https://twitter.com/DhirajGagrai" target="_blank"
+                            >Twitter</a
+                        >,
+                        <a
+                            href="https://www.linkedin.com/in/dhirajgagrai"
+                            target="_blank">LinkedIn</a
+                        >,
+                        <a
+                            href="https://discordapp.com/users/458476095273041941"
+                            target="_blank">Discord</a
+                        > or
+                        <a href="mailto:dhirajgagrai@gmail.com">Email</a>.
+                    </p>
+                </div>
+                <img src="/profile.jpeg" alt="Photo of Dhiraj">
+            </div>
             <div class="content">
                 <h2>Projects</h2>
                 <ul class="projects">
@@ -104,7 +120,7 @@ const projects = (await getCollection("projects")).sort(
             </div>
             <div class="content">
                 <h2>Blog</h2>
-                <ul class="posts">
+                <ul class="slug-ul posts">
                     {
                         posts.map((post) => (
                             <li>
