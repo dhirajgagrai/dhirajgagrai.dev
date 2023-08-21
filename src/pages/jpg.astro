@@ -37,6 +37,9 @@ const jpgs = (await getCollection("jpg")).sort(
                 font-size: 0.9rem;
                 font-weight: bolder;
             }
+            .image-footer {
+                margin-top: 10px;
+            }
         </style>
     </head>
     <body>
@@ -53,7 +56,7 @@ const jpgs = (await getCollection("jpg")).sort(
                                     <img src={jpg.data.url} />
                                     <p class="image-title">{jpg.data.title}</p>
                                     <Content />
-                                    <i>Taken on <FormattedDate date={jpg.data.date} /></i>
+                                    <i class="image-footer">Taken on <FormattedDate date={jpg.data.date} /></i>
                                 </div>
                             );
                         })
