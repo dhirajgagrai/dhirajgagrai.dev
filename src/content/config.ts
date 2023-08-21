@@ -1,11 +1,9 @@
 import { defineCollection, z } from 'astro:content';
 
 const blog = defineCollection({
-    // Type-check frontmatter using a schema
     schema: z.object({
         title: z.string(),
         description: z.string(),
-        // Transform string to Date object
         pubDate: z
             .string()
             .or(z.date())
@@ -19,11 +17,9 @@ const blog = defineCollection({
 });
 
 const notes = defineCollection({
-    // Type-check frontmatter using a schema
     schema: z.object({
         title: z.string(),
         description: z.string(),
-        // Transform string to Date object
         pubDate: z
             .string()
             .or(z.date())
@@ -37,7 +33,6 @@ const notes = defineCollection({
 });
 
 const now = defineCollection({
-    // Type-check frontmatter using a schema
     schema: z.object({
         title: z.string(),
         weight: z.number(),
@@ -45,11 +40,9 @@ const now = defineCollection({
 });
 
 const projects = defineCollection({
-    // Type-check frontmatter using a schema
     schema: z.object({
         title: z.string(),
         description: z.string(),
-        // Transform string to Date object
         pubDate: z
             .string()
             .or(z.date())
@@ -58,4 +51,17 @@ const projects = defineCollection({
     }),
 });
 
-export const collections = { blog, notes, now, projects };
+
+const jpg = defineCollection({
+    schema: z.object({
+        serial: z.number(),
+        title: z.string(),
+        url: z.string(),
+        date: z
+            .string()
+            .or(z.date())
+            .transform((val) => new Date(val)),
+    }),
+});
+
+export const collections = { blog, notes, now, projects, jpg };

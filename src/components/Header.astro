@@ -1,6 +1,8 @@
 ---
 import HeaderLink from "./HeaderLink.astro";
 import { PAGE_TITLE } from "../consts";
+
+const { theme } = Astro.props;
 ---
 
 <header>
@@ -11,6 +13,7 @@ import { PAGE_TITLE } from "../consts";
         <HeaderLink href="/">Home</HeaderLink>
         <HeaderLink href="/blog">Blog</HeaderLink>
         <HeaderLink href="/notes">Notes</HeaderLink>
+        <HeaderLink href="/jpg">JPG</HeaderLink>
         <HeaderLink href="/now">Now</HeaderLink>
     </nav>
 </header>
@@ -25,4 +28,16 @@ import { PAGE_TITLE } from "../consts";
     h1 {
         font-size: 1.25rem;
     }
+    nav a {
+        margin-right: 10px;
+        color: rgb(6, 131, 75);
+    }
 </style>
+
+{ theme === "dark" && 
+    <style>
+        * {
+            color: #fff !important;
+        }
+    </style>
+} 

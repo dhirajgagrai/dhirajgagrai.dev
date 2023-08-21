@@ -17,7 +17,7 @@ body {
     max-width: 69ch;
     min-height: 100vh;
     text-align: left;
-    background-color: #fff;
+    background-color: #f8f6ef;
     word-wrap: break-word;
     overflow-wrap: break-word;
     line-height: 1.5;
@@ -42,10 +42,6 @@ a {
 a:hover {
     text-decoration-color: rgb(86, 209, 154);
     text-decoration-thickness: 2px;
-}
-nav a {
-    color: rgb(6, 131, 75);
-    margin-right: 10px;
 }
 textarea {
     width: 100%;
