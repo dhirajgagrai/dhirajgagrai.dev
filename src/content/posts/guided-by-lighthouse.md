@@ -21,7 +21,7 @@ At the time of writing, the Lighthouse v10 has the following distribution for th
 | TBT       | 30%       |
 | CLS       | 25%       |
 
-TTI was assigned a weightage of 10% in v8 and v9 but removed from version 10. Its weightage is adjusted to CLS because TTI was affected by external factors too much. Quoting from the Chrome Developers' <a href="https://developer.chrome.com/blog/lighthouse-10-0/" target="_blank">blog</a>, 'The way it's defined makes it overly sensitive to outlier network requests and long tasks'. However, this change in version did not affect my website performance because my TTI and CLS scores were already at 100%.
+TTI was assigned a weightage of 10% in v8 and v9 but removed from version 10. Its weightage is adjusted to CLS because TTI was affected by external factors too much. Quoting from the Chrome Developers' <a href="https://developer.chrome.com/posts/lighthouse-10-0/" target="_blank">posts</a>, 'The way it's defined makes it overly sensitive to outlier network requests and long tasks'. However, this change in version did not affect my website performance because my TTI and CLS scores were already at 100%.
 
 I built my web pages using the Astro framework, which ships zero JS by default. This feature contributed to notable progress while improving the TTI and Contentful Paint scores. Through my experiences, CLS and TBT scores are relatively easier to improve than other metrics. CLS can be tricky for client-side rendered UIs, but we can address it using placeholder or skeleton components. Initially, the FCP reports were poor and were somewhere around the range of 0.6ms. I followed the suggestions provided by Lighthouse to eliminate the render-blocking resources and reduce the FCP time.
 
