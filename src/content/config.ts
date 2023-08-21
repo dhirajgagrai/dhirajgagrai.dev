@@ -12,7 +12,7 @@ const posts = defineCollection({
             .string()
             .optional()
             .transform((str) => (str ? new Date(str) : undefined)),
-        heroImage: z.string().optional(),
+        cover: z.string().optional(),
     }),
 });
 
@@ -28,7 +28,7 @@ const notes = defineCollection({
             .string()
             .optional()
             .transform((str) => (str ? new Date(str) : undefined)),
-        heroImage: z.string().optional(),
+        cover: z.string().optional(),
     }),
 });
 
@@ -56,7 +56,10 @@ const jpg = defineCollection({
     schema: z.object({
         serial: z.number(),
         title: z.string(),
-        url: z.string(),
+        image: z.string(),
+        imageAlt: z.string(),
+        width: z.number(),
+        height: z.number(),
         date: z
             .string()
             .or(z.date())

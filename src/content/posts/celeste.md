@@ -3,7 +3,7 @@ title: "Celeste"
 description: "Celeste is a fresh modern 2D platformer. This game has one of the best sound and level designs. Celeste is probably the best 2D platformer game I have ever played because it is the only platformer I remember completing."
 pubDate: "Apr 18 2023"
 updatedDate: "May 19 2023"
-heroImage: "/celeste-core.png"
+cover: "/celeste-cover.png"
 ---
 Celeste is probably the best 2D platformer game I have ever played because it is the only platformer I remember completing. I have beaten other platformers where games feel like a chore to get to the end credits. In Celeste, there is an overwhelming sense of accomplishment at every level. The artwork describing the chapters and a jingle that plays on finishing them add to this feeling.
 
@@ -23,7 +23,7 @@ The platforming genre is arguably the hardest for indie developers to break thro
 
 There are five fundamental mechanics: Running, Jumping, Dashing, Grabbing and Crouching. The movements of the protagonist Madeline are super tight, precise and very satisfying to execute.
 
-| ![Celeste Movements](/celeste-movements.gif) |
+| ![Celeste Movements](/gif/celeste-movements.gif) |
 |:--:|
 | <b>GIF Credits - [Tenor](https://tenor.com/en-GB/view/celeste-2d-platformer-indie-games-gif-24566313)</b> |
 
@@ -37,7 +37,7 @@ These moves are combined with various elements of the levels, resulting in a del
 
 While playing the game, there may be slight misjudgment in timing the inputs. Despite this, Madeline can smoothly maneuvre through the level. Celeste is very forgiving towards these nuances while still demanding strict controls.
 
-| ![Corner Correction](/corner-correction.gif) |
+| ![Corner Correction](/gif/corner-correction.gif) |
 |:--:|
 | <b>GIF Credits - [Maddy Makes Games](https://www.maddymakesgames.com/articles/celeste_and_forgiveness/index.html)</b> |
 
@@ -53,7 +53,7 @@ If the main game becomes easy, players can unlock cassette levels if they really
 
 ## Soundtrack
 
-![Corner Correction](/celeste-soundtrack.png)
+![Soundtrack](../../assets/images/celeste-soundtrack.png)
 
 If not for the Katana Zero, this game would have been my all-time favourite OST. Sound design and music are what sets the tempo of this game. Sometimes it is serene and slow so that you can appreciate the artwork of the game. Other times it is exciting and makes you feel invincible even if you die 100 times in a level.
 
