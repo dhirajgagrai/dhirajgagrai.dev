@@ -1,13 +1,24 @@
 ---
 import type { CollectionEntry } from "astro:content";
+import { Image } from "astro:assets";
 import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import FormattedDate from "../components/FormattedDate.astro";
 
+import cover_1 from "../assets/images/celeste-cover.png";
+import cover_2 from "../assets/images/lighthouse-cover.jpg";
+
+const postCovers: { [index: string]: ImageMetadata } = {
+    "celeste-cover.png": cover_1,
+    "lighthouse-cover.jpg": cover_2,
+};
+
 type Props = CollectionEntry<"posts">["data"];
 
 const { title, description, pubDate, updatedDate, cover } = Astro.props;
+
+const coverFile = cover ? postCovers[cover] : undefined;
 ---
 
 <html lang="en">
@@ -45,11 +56,7 @@ const { title, description, pubDate, updatedDate, cover } = Astro.props;
         <Header />
         <main>
             <article>
-                {
-                    cover && (
-                        <img src={cover} alt="" />
-                    )
-                }
+                {coverFile && (<Image src={coverFile} alt="" />)}
                 <h1 class="title">{title}</h1>
                 <FormattedDate date={pubDate} />
                 {
