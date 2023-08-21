@@ -1,7 +1,7 @@
 ---
 serial: 1
 title: "Sunday evening"
-url: "https://www.dropbox.com/scl/fi/2y3lllgtwbt9u8keim5xu/sunday-evening.jpg?raw=1&rlkey=1esqzyqr4g09gdg25n1y4tcn3"
+url: "https://res.cloudinary.com/ddkhdbkyi/image/upload/v1692619592/dhirajgagrai.dev/sunday-evening_ji8mdm.jpg"
 date: "Jun 25 2023"
 ---
 
