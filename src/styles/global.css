@@ -40,7 +40,7 @@ a {
     color: #222;
 }
 a:hover {
-    text-decoration-color: rgb(86, 209, 154);
+    text-decoration-color: #32bd7e;
     text-decoration-thickness: 2px;
 }
 textarea {
