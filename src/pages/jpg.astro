@@ -16,19 +16,26 @@ const jpgs = (await getCollection("jpg")).sort(
     <head>
         <BaseHead title="JPG • dhirajgagrai.dev" description="Photo dump of Dhiraj Gagrai" />
         <style>
-            body {
-                background-color: #000;
-            }
             * {
                 color: #fff !important;
+            }
+            body {
+                margin: 0;
+                background-color: #000;
+                max-width: 100%;
             }
             i {
                 font-size: 0.8rem;
             }
-            .container {
+            .header-container {
+                margin: auto;
+                min-width: 69ch;
+            }
+            .image-container {
                 display: flex;
                 flex-direction: column;
                 margin-bottom: 50px;
+                align-items: center;
             }
             .image-title {
                 text-align: center;
@@ -36,36 +43,46 @@ const jpgs = (await getCollection("jpg")).sort(
                 font-weight: bolder;
                 margin: 20px 0;
             }
+            .image-description {
+                margin: auto;
+                max-width: 69ch;
+            }
             .image-footer {
                 margin-top: 10px;
+            }
+            @media handheld, only screen and (max-width: 479px), only screen and (max-device-width: 479px) {
+                .header-container {
+                    margin: 0;
+                    min-width: 0;
+                }
             }
         </style>
     </head>
     <body>
-        <Header theme="dark" />
+        <div class="header-container">
+            <Header theme="dark" />
+        </div>
         <main>
             <section>
-                <ul>
-                    {
-                        jpgs.map(async (jpg) => {
-                            const { Content } = await jpg.render();
-                            return (
-                                <div class="container">
-                                    <p class="image-title">{jpg.data.serial}</p>
-                                    <Image
-                                        src={jpg.data.image}
-                                        height={jpg.data.width}
-                                        width={jpg.data.height}
-                                        alt={jpg.data.imageAlt}
-                                    />
-                                    <p class="image-title">{jpg.data.title}</p>
-                                    <Content />
-                                    <i class="image-footer">Taken on <FormattedDate date={jpg.data.date} /></i>
-                                </div>
-                            );
-                        })
-                    }
-                </ul>
+                {
+                    jpgs.map(async (jpg) => {
+                        const { Content } = await jpg.render();
+                        return (
+                            <div class="image-container">
+                                <p class="image-title">{jpg.data.serial}</p>
+                                <Image
+                                    src={jpg.data.image}
+                                    height={jpg.data.width}
+                                    width={jpg.data.height}
+                                    alt={jpg.data.imageAlt}
+                                />
+                                <p class="image-title">{jpg.data.title}</p>
+                                <div class="image-description"><Content /></div>
+                                <i class="image-footer">Taken on <FormattedDate date={jpg.data.date} /></i>
+                            </div>
+                        );
+                    })
+                }
             </section>
         </main>
         <Footer />
