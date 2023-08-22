@@ -8,4 +8,4 @@ height: 783
 date: "Jun 25 2023"
 ---
 
-<p>This is the image that I'm using for the favicon of this website.</p>
+<p>The image that I'm using for the favicon of this website.</p>
