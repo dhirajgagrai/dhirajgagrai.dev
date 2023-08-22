@@ -13,7 +13,7 @@ weight: 3
     </li>
     <li>
         <a 
-            href="https://www.chess.com/member/pogmaoth"
+            href="https://www.chess.com/member/BroccoliPancake"
             target="_blank"
         >Chess</a>
     </li>
