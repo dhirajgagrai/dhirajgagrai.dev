@@ -29,7 +29,8 @@ const jpgs = (await getCollection("jpg")).sort(
             }
             .header-container {
                 margin: auto;
-                min-width: 69ch;
+                max-width: 69ch;
+                width: 100%;
             }
             .image-container {
                 display: flex;
@@ -44,14 +45,15 @@ const jpgs = (await getCollection("jpg")).sort(
                 margin: 20px 0;
             }
             .image-description {
-                margin: auto;
+                display: inline-grid;
                 max-width: 69ch;
+                width: 100%;
             }
-            .image-footer {
+            .image-description i {
                 margin-top: 10px;
             }
             @media handheld, only screen and (max-width: 479px), only screen and (max-device-width: 479px) {
-                .header-container {
+                .image-description {
                     margin: 0;
                     min-width: 0;
                 }
@@ -77,8 +79,10 @@ const jpgs = (await getCollection("jpg")).sort(
                                     alt={jpg.data.imageAlt}
                                 />
                                 <p class="image-title">{jpg.data.title}</p>
-                                <div class="image-description"><Content /></div>
-                                <i class="image-footer">Taken on <FormattedDate date={jpg.data.date} /></i>
+                                <div class="image-description">
+                                    <Content />
+                                    <i>Taken on <FormattedDate date={jpg.data.date} /></i>
+                                </div>
                             </div>
                         );
                     })

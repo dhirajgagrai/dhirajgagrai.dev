@@ -10,5 +10,5 @@ date: "Jul 24 2023"
 
 <p>
     There was a power cut for some hours, and I went to the roof of my house at night. 
-    This picture is after I discovered the astrophotography option on my phone.
+    This picture is after I discovered the astro photography option on my phone.
 </p>

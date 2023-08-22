@@ -3,13 +3,18 @@ import HeaderLink from "./HeaderLink.astro";
 import { PAGE_TITLE } from "../consts";
 
 const { theme } = Astro.props;
+
+let darkMode = false;
+if (theme === "dark") {
+    darkMode = true;
+}
 ---
 
 <header>
-    <h1>
+    <h1 class={ darkMode ? "dark-mode" : "" }>
         {PAGE_TITLE}
     </h1>
-    <nav>
+    <nav class={ darkMode ? "dark-mode" : "" }>
         <HeaderLink href="/">Home</HeaderLink>
         <HeaderLink href="/posts">Posts</HeaderLink>
         <HeaderLink href="/notes">Notes</HeaderLink>
@@ -17,6 +22,7 @@ const { theme } = Astro.props;
         <HeaderLink href="/now">Now</HeaderLink>
     </nav>
 </header>
+
 <style>
     header {
         margin: 1.25em 0;
@@ -32,12 +38,11 @@ const { theme } = Astro.props;
         margin-right: 10px;
         color: #027541;
     }
+    .dark-mode {
+        color: #fff;
+    }
+    .dark-mode * {
+        color: #fff;
+    }
 </style>
 
-{ theme === "dark" && 
-    <style>
-        * {
-            color: #fff !important;
-        }
-    </style>
-} 

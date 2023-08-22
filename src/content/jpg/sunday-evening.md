@@ -8,4 +8,7 @@ height: 783
 date: "Jun 25 2023"
 ---
 
-<p>The image that I'm using for the favicon of this website.</p>
+<p>
+    The image that I'm using for the favicon of this website. 
+    This is the place where I developed my phobia for bees.
+</p>
