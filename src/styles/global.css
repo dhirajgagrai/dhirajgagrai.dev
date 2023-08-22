@@ -97,6 +97,10 @@ p {
 }
 @media handheld, only screen and (max-width: 479px), only screen and (max-device-width: 479px) {
     .slug-ul li {
-        margin-bottom: 10px;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .slug-ul li time {
+        flex: 0;
     }
 }
