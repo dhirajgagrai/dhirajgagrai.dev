@@ -8,9 +8,10 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^2.0.18",
     "@astrojs/mdx": "^0.17.2",
     "@astrojs/rss": "^2.1.1",
-    "@astrojs/sitemap": "^1.1.0"
+    "@astrojs/sitemap": "^1.1.0",
+    "@astrojs/vercel": "^4.0.3",
+    "astro": "^3.0.7"
   }
 }
