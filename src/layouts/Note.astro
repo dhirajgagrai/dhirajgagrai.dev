@@ -32,11 +32,7 @@ const { title, description, pubDate, updatedDate, cover } = Astro.props;
         <Header />
         <main>
             <article>
-                {
-                    cover && (
-                        <img src={cover} alt="" />
-                    )
-                }
+                {cover && <img src={cover} alt="" />}
                 <h1 class="title">{title}</h1>
                 <FormattedDate date={pubDate} />
                 {

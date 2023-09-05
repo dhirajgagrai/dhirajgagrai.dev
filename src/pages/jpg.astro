@@ -14,7 +14,10 @@ const jpgs = (await getCollection("jpg")).sort(
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <BaseHead title="JPG • dhirajgagrai.dev" description="Photo dump of Dhiraj Gagrai" />
+        <BaseHead
+            title="JPG • dhirajgagrai.dev"
+            description="Photo dump of Dhiraj Gagrai"
+        />
         <style>
             * {
                 color: #fff !important;
@@ -52,7 +55,9 @@ const jpgs = (await getCollection("jpg")).sort(
             .image-description i {
                 margin-top: 10px;
             }
-            @media handheld, only screen and (max-width: 479px), only screen and (max-device-width: 479px) {
+            @media handheld,
+                only screen and (max-width: 479px),
+                only screen and (max-device-width: 479px) {
                 .image-description {
                     margin: 0;
                     min-width: 0;
@@ -81,7 +86,10 @@ const jpgs = (await getCollection("jpg")).sort(
                                 <p class="image-title">{jpg.data.title}</p>
                                 <div class="image-description">
                                     <Content />
-                                    <i>Taken on <FormattedDate date={jpg.data.date} /></i>
+                                    <i>
+                                        Taken on{" "}
+                                        <FormattedDate date={jpg.data.date} />
+                                    </i>
                                 </div>
                             </div>
                         );

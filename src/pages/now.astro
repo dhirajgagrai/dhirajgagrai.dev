@@ -12,7 +12,10 @@ const nowContents = (await getCollection("now")).sort(
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <BaseHead title="Now • dhirajgagrai.dev" description="What am I doing now?" />
+        <BaseHead
+            title="Now • dhirajgagrai.dev"
+            description="What am I doing now?"
+        />
         <style>
             h3 {
                 font-weight: 600;
@@ -47,7 +50,9 @@ const nowContents = (await getCollection("now")).sort(
                             const { Content } = await now.render();
                             return (
                                 <div class="content">
-                                    <h3 class="content-title">{now.data.title}</h3>
+                                    <h3 class="content-title">
+                                        {now.data.title}
+                                    </h3>
                                     <Content />
                                 </div>
                             );
