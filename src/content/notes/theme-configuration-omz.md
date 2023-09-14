@@ -4,7 +4,7 @@ description: "This is the modification for alanpeabdoy theme that I use for Oh M
 pubDate: "Apr 02 2023"
 ---
 
-Filename: alanpeabody.zsh-theme
+Filename: .oh-my-zsh/themes/alanpeabody.zsh-theme
 
 ```
 local time='%{$fg[yellow]%}[%t]%{$reset_color%}'

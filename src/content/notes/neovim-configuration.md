@@ -4,7 +4,7 @@ description: "Configuration used for Neovim for Go development"
 pubDate: "Feb 05 2023"
 ---
 
-Filename: init.vim
+Filename: .config/nvim/init.vim
 
 ```vim
 :set number
@@ -27,14 +27,21 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'jiangmiao/auto-pairs'
 
 " Tooling
-Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
 
 let g:airline_theme='base16'
 
-" coc.nvim Config
+" clang-format config
+let g:neoformat_cpp_clangformat = {
+    \ 'exe': 'clang-format',
+    \ 'args': ['--style="{IndentWidth: 4}"']
+\}
+let g:neoformat_enabled_cpp = ['clangformat']
+let g:neoformat_enabled_c = ['clangformat']
+
+" coc.nvim config
 " May need for Vim (not Neovim) since coc.nvim calculates byte offset by count
 " utf-8 byte sequence
 set encoding=utf-8
