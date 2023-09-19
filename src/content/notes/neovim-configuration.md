@@ -17,6 +17,8 @@ Filename: .config/nvim/init.vim
 
 :set autowrite
 
+:inoremap jj <ESC>
+
 call plug#begin()
 
 " Themes

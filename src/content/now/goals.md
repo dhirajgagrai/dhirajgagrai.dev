@@ -11,6 +11,6 @@ weight: 1
         >Incremental Caching</a>
         for Astro
     </li>
-    <li>Emotion for Spotify</li>
+    <li>Project Aegis</li>
     <li>Deadlift 200kg</li>
 </ul>

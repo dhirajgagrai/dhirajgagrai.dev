@@ -1,6 +1,6 @@
 ---
-title: "vite-plugin-astro-constants-meta"
-description: "Vite plugin to retrieve and add constants from Astro file to module's metadata."
+title: "vite-plugin-astro-scanner"
+description: "Vite plugin to scan constants from Astro file. Derived from Astro's vite-plugin-scanner."
 pubDate: "Mar 13 2023"
-link: "https://github.com/dhirajgagrai/vite-plugin-astro-constants-meta"
+link: "https://github.com/dhirajgagrai/vite-plugin-astro-scanner"
 ---
